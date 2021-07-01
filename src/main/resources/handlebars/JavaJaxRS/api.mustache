@@ -48,7 +48,6 @@ import javax.validation.constraints.*;
 {{#useOas2}}
 @io.swagger.annotations.Api(description = "the {{{baseName}}} API")
 {{/useOas2}}
-{{>generatedAnnotation}}
 {{#operations}}
 public class {{classname}}  {
    private final {{classname}}Service delegate;
